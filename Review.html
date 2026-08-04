@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Review</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+<header>
+	<div class="main">
+		<div class="navbar">
+			<div class="icon">
+				<h2 class="logo">CampFire</h2>
+			</div>
+
+			<div class="menu">
+			    <ul>
+				    <li><a href="index.html">HOME</a></li>
+				    <li><a href="CampingEquipment.html">EQUIPMENT</a></li>
+				    <li><a href="Furniture.html">FURNITURE</a></li>	
+				    <li><a href="Review.html" class="target">REVIEWS</a></li>
+				    <li><a href="Offer&Packages.html">OFFER & PACKAGE</a></li>
+				    <li><a href="Basket.html">BASKET</a></li>	
+				    <!--<li><a href="Login.html">LOGIN</a></li>-->	
+			    </ul>
+		    </div>
+
+		    <div class="search">
+		    	<input class="srch" type="search" name="search" placeholder="Type To Search">
+		    	<a href="#"></a>
+		    </div>
+		</div>	
+	</div>
+</header>
+<section id="review">
+	<div class="heading">
+		<span>Customer reviews</span>
+		<h1>Latest reviews</h1>
+	</div>
+<div class="box-container">
+	<!--box 1-->
+	<div class="box">
+		<div class="box-top">
+			<div class="profile">
+
+				<div class="profile-img">
+					<img src="photos/gojo.png" alt="">
+				</div>
+                <div class="username">
+						<strong>Gojo Satoru</strong>
+						<span>Reviewed in the United States on Nov 20, 2023</span>
+				</div>
+			</div>
+			<div class="customer-reviews">
+				<img src="photos/icons/4-star-icon.jpg" alt="">
+			</div>
+		</div>
+		<div class="client-comment">
+			<p>Nangogear is a sturdy little table--doesn't fold in half like the more expensive ones do, but it's plenty strong (if a little heavy). The bag is nice--hefty enough material. But you'll have to be careful about the legs or figure out a way to pad the ends so they don't damage adjacent gear.</p>
+		</div>
+	</div>
+	<!--box 2-->
+	<div class="box">
+		<div class="box-top">
+			<div class="profile">
+
+				<div class="profile-img">
+					<img src="photos/dog.png" alt="">
+				</div>
+                <div class="username">
+						<strong>John Smith</strong>
+						<span>Reviewed in the Canada on Nov 8, 2023</span>
+				</div>
+			</div>
+			<div class="customer-reviews">
+				<img src="photos/icons/5-star-icon.jpg" alt="">
+			</div>
+		</div>
+		<div class="client-comment">
+			<p>Kazoo 4 is really easy to put up. I did it by myself and I'm 68. It seems bigger than just a 4 man. It's taller than I expected too. There are a lot of pockets around the tent to use to stow stuff. The only thing I would change is extending the rainfly cover to the ground on the sides and back for further protection in the case of heavy rain. All in all it's the perfect tent!</p>
+		</div>
+	</div>
+	<!--box 3-->
+	<div class="box">
+		<div class="box-top">
+			<div class="profile">
+
+				<div class="profile-img">
+					<img src="photos/zoro.jpeg" alt="">
+				</div>
+                <div class="username">
+						<strong>Roronoa Zoro</strong>
+						<span>Reviewed in the United States on Oct 29, 2023</span>
+				</div>
+			</div>
+			<div class="customer-reviews">
+				<img src="photos/icons/3-star-icon.jpg" alt="">
+			</div>
+		</div>
+		<div class="client-comment">
+			<p>I am giving it 3 Stars which might be a bit harsh but I cannot give it 3.5 stars. Rothco makes a fairly good product over all and while it’s comes up a bit short, I expect a lot. This pack comes up a bit short but for a day pack and light usage, it is far superior to almost all of the junk out there.</p>
+		</div>
+	</div>
+	<!--box 4-->
+	<div class="box">
+		<div class="box-top">
+			<div class="profile">
+
+				<div class="profile-img">
+					<img src="photos/zenitsu.webp" alt="">
+				</div>
+                <div class="username">
+						<strong>Zenitsu Agatsuma</strong>
+						<span>Reviewed in the United States on Sep 30, 2023</span>
+				</div>
+			</div>
+			<div class="customer-reviews">
+				<img src="photos/icons/5-star-icon.jpg" alt="">
+			</div>
+		</div>
+		<div class="client-comment">
+			<p>Coleman Sling Chair is not very heavy and it's easy to carry. It's also very easy to assemble and pack back up. There's nothing cheap feeling about this either. It's comfortable and quite sturdy. I'm about 210 lbs. and this is great. It's adjustable - sit upright or lean back with your head resting on the chair.</p>
+		</div>
+	</div>
+</div>
+<div class="review-forum">
+	<div class='text3'>
+        <h1>Share your thought with other customers</h1><br>
+    	<a href="#form" class="txx">Write a customer review</a>
+    </div>
+<div class="form2" id="form">
+<div class="center">
+<form action="#">
+	<h2>Write review!</h2>
+
+	<div class="stars">
+		<input type="radio" id="five" name="rate">
+		<label for="five"></label>
+		<input type="radio" id="four" name="rate">
+		<label for="four"></label>
+		<input type="radio" id="three" name="rate">
+		<label for="three"></label>
+		<input type="radio" id="two" name="rate">
+		<label for="two"></label>
+		<input type="radio" id="one" name="rate">
+		<label for="one"></label>
+	</div>
+	<input type="text" name="text" placeholder="First Name">
+	<input type="text" name="text" placeholder="Last Name">
+	<input type="email" name="email" placeholder="Enter your email">
+	<!--
+	<input type="description" name="description" placeholder="Describe your experience" id="description">-->
+	<textarea cols="47" rows="5" placeholder="Write your opinion." class="textarea"></textarea>
+	<input type="Submit" name="submit" value="Done" class="submit-btn">
+</form>
+</div>
+</div>
+</div>
+</section>
+    <footer>
+		<h3>Connect with Us</h3>
+		<div class="social-media-icons">
+			<a href="https://www.facebook.com">
+			    <img src="photos/icons/Facebook-icon.jpg" alt="Facebook icon"></a>
+			<a href="https://www.twitter.com" target="_blank">
+			    <img src="photos/icons/Twitter-icon.jpg" alt="Twitter icon"></a>
+			<a href="https://www.instagram.com" target="_blank">
+			    <img src="photos/icons/Instagram-icon.jpg" alt="Instagram icon"></a>
+			<a href="https://www.youtube.com" target="_blank">
+			    <img src="photos/icons/Youtube-icon.jpg" alt="Youtube icon"></a>
+		</div>
+		<h5>&copy;2023 Retail Camping Company</h5>	    
+	</footer></body>
+</html>
